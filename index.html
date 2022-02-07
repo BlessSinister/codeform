@@ -11,20 +11,21 @@
 </head>
 
 <body>
-    <h1 class="text-center">freeCodeCamp Survey Form</h1>
-    <p class="description text-center">Thank you for taking the time to help us improve the platform</p>
-    <form>
+    <h1 class="text-center" id="title">freeCodeCamp Survey Form</h1>
+    <p class="description text-center" id="description">Thank you for taking the time to help us improve the platform
+    </p>
+    <form id="survey-form">
         <div class="form-group">
-            <label for="name">Name</label>
+            <label for="name" id="name-label">Name</label>
             <input type="text" name="name" placeholder="Enter your name" class='form-control' required>
         </div>
         <div class="form-group">
-            <label for="email">Email</label>
+            <label for="email" id="email-label">Email</label>
             <input type="email" name="email" placeholder="Enter your email" required class='form-control'>
         </div>
         <div class="form-group">
-            <label for="age">Age</label>
-            <input type="number" name="age" placeholder="Age" min="10" max='99' class='form-control'>
+            <label for="age" id="number-label">Age</label>
+            <input type="number" name="age" placeholder="Age" min="10" max='99' class='form-control' id="number">
         </div>
         <div class="form-group">
             <p>Which option best describes your current role?</p>
