@@ -117,3 +117,6 @@ label {
     min-height: 1.25rem;
     min-width: 1.25rem;
 }
+.form-control {
+    font-size: 16px;
+}
